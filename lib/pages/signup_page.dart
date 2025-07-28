@@ -10,6 +10,12 @@ class SignupPage extends StatefulWidget {
 class _SignupPageState extends State<SignupPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(title: Text("SignUp Page")),
+      body: Column(children: [
+          
+        ],
+      ),
+    );
   }
 }
